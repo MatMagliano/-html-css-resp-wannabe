@@ -8,7 +8,7 @@
 /* BLOCCO LEZIONI */
 #lezioni .row > .left, #lezioni .row > .right{
   width: 50%;
-  float: left; 
+  float: left;
 }
 
 #lezioni .row img {
@@ -64,4 +64,19 @@ img{
 
 .clear {
   clear:both;
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 420px) {
+  #lezioni .row > .left,
+  #lezioni .row > .right {
+    float: none;
+    width: 100%;
+    /* background-color: lightyellow; */
+  }
+  #lezioni .row > .left {
+    margin-bottom: 20px;
+  }
+
 }
